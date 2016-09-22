@@ -1,0 +1,34 @@
+{
+  "name": "bigsheets",
+  "version": "1.0.0",
+  "description": "global functions, global data",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "testw": "jest --watch=all"
+  },
+  "author": "aco-over",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.1"
+  },
+  "devDependencies": {
+    "jest": "^15.1.1",
+    "babel-core": "^6.11.4",
+    "babel-jest": "^13.2.2",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  }
+}
