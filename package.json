@@ -2,6 +2,7 @@
   "name": "bigsheets",
   "version": "1.0.0",
   "description": "global functions, global data",
+  "repository": "https://github.com/aco-over/bigsheets.git",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,7 +11,9 @@
   "author": "aco-over",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.16.1"
+    "esprima": "^3.0.0",
+    "lodash": "^4.16.1",
+    "toposort": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^15.1.1",

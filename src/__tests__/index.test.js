@@ -1,9 +1,9 @@
-import {asdf} from '../index.js'
+import _ from 'lodash'
 
-describe('ViewHud', () => {
-  describe("Can mount", () => {
-    it('can render', () => {
-      expect(true).toEqual(true);
+describe('index', () => {
+  describe("emptytest", () => {
+    it('works', () => {
+      expect(1).toEqual(1);
     });
   });
 });
